@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Song</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="addfondo" background="mj.jpg">
+    
+    
+    <div class="addsongg">
+        <h1><em><strong>Agregar Canciones</strong></em></h1>
+    </div>
+
+    <div class="titulosongg">   
+
+        <form action="" id="addSongForm" name="formulario" onclick="validarAddSong()">
+        <label for="title">titulo</label>
+        <br>
+        <input class="titulo-add" type="text" placeholder="titulo" name="songTitle"> <br><br><br>  
+        
+
+        <!-- <label for="text">Duracion</label>
+        
+        
+        <label for="link"></label> -->
+        <br>
+        <!-- <input class="" type=" text" placeholder="Duracion"><br><br><br> -->
+
+
+        <label for="link">duracion</label>
+        <br>
+        <input class="duracion-add" type=" text" placeholder="duracion de la cancion" name="songDuracion"><br><br><br>
+
+        <label for="link">Link de la cancion</label>
+        <br>
+        <input class="url-add" type=" text" placeholder="campo con una url" name="songUrl"><br><br><br>
+        
+       <button class="edibot">Agregar</button> 
+        <button class="rojobot" id="cancelar">Cancelar</button> 
+</form>
+    </div>
+    
+    <div class="sideindex">
+
+        <div class="nombreusuario">
+            <br>
+            <strong><em><u>Leo Boneo</u></em></strong><a href="index.html"><img  src="images.jpg" alt="jackson" width="140px" height="140px" >
+            </a><br>
+    
+        </div>
+
+        <div class="otheral">
+            <br><br>
+            <div><a href="Albums.html"><strong><em>Other Album</em></strong></a>
+                <br><br><br>
+            </div>
+
+            <br>
+
+
+            <div class="eidtsong">
+
+                <a href="editform.html"><strong><em>Edit Album</em></strong></a>
+                <br><br><br><br>
+
+
+            </div>
+            <a href="addAlbum.html"><strong><em>Add Album</em></strong></a>
+            <br><br>
+
+            <div>
+
+            </div>  
+
+
+            <br><br>
+            <div class="addsong">
+
+                <a href="addsong.html"><strong><em>Add Song</em></strong></a>
+            </div>
+
+            <br><br>
+            <div class="tours">
+                <a href="tours.html"><strong><em>Tours</em></strong></a>
+            </div>
+
+            <div class="logout">
+
+                <br><br>
+                <a href="login.html"><strong><em>Log Out</em></strong></a>
+            </div>
+
+            <br><br>
+                <div><a href="usuarios.html"><strong><em>Usuarios</em></strong></a>
+                    <br><br><br>
+                </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="./addsong.js"></script>
+        <script src="validations.js"></script>
+        
+
+</body>
+</html>

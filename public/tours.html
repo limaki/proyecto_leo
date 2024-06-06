@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fechas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/34ccaf44ec.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+
+<body class="fondotour">
+
+    <div class="container11">
+        <div class="item">
+            <img src="images.jpg" height="170px" width="170px" alt="">
+        </div>
+        <div class="item">Tour y Fechas</div>
+        <div class="tickettour">
+            <i class="fa-sharp fa-regular fa-bolt" style="color: #FFD43B;"></i>
+
+        <span id="welcome"></span>
+        </div>
+    </div>
+
+    </div>
+    <div class="contenedor-tour">
+        <div class="elemento-flex">
+            <ul>
+                <li>11 de Mayo</li>
+                <li>14 de Mayo</li>
+                <li>20 de Julio</li>
+                <li>22 de Julio</li>
+                <li>15 de Agosto</li>
+            </ul>
+
+        </div>
+        <div class="elemento-flex">
+            <ul>
+                <li>Madrid</li>
+                <li>Barcelona</li>
+                <li>Lisboa</li>
+                <li>Roma</li>
+                <li>Paris</li>
+            </ul>
+        </div>
+        <div class="elemento-flex"" style=" list-style: none;">
+            <ul>
+                <li><button class="btn" id="Madrid" onclick="getTickets('Madrid')">ticket</button></li>
+                <li><button class="btn" id="Barcelona" onclick="getTickets('Barcelona')">ticket</button></li>
+                <li><button class="btn" id="Lisboa" onclick= "getTickets('Lisboa')">ticket</button></li>
+                <li><button class="btn" id="Roma" onclick= "getTickets('Roma')" >ticket</button></li>
+                <li><button class="btn" id="Paris" onclick= "getTickets('Paris')" >ticket</button></li>
+            </ul>
+        </div>
+
+        <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+        <script src="tours.js"></script>
+        
+</body>
+
+</html>
